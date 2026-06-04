@@ -19,11 +19,15 @@ export default function Letters() {
           <LetterCard
             subtitle="💌 Carta 1"
             title="Sobre o nosso começo"
-            content={`11 de janeiro de 2026.
+            content={`11 de maio de 2026.
 
+            Quem diria né? De uma conversa, um cinema e hoje a certeza que é você, e pra sempre.
+            
             Foi o início da nossa história. Olhando você algo me dizia que encontrei a minha pessoa.
+
             Talvez naquele momento eu ainda não soubesse quantas memórias construiríamos juntos, mas algo me fazia ter certeza que era com você que eu queria e deveria estar.
             Mas hoje sei que foi um dos dias mais importantes da minha vida.
+            
             E sempre tenho a sensação de que, de alguma forma, eu já te amava mesmo antes de te conhecer.`}
           />
 
