@@ -22,7 +22,7 @@ export default function Letters() {
             content={`11 de janeiro de 2026.
 
             Foi o início da nossa história. Olhando você algo me dizia que encontrei a minha pessoa.
-            Talvez naquele momento eu ainda não soubesse quantas memórias construiríamos juntos, mas algo me fazia ter certeza que era com você que eu queria e deveria estar
+            Talvez naquele momento eu ainda não soubesse quantas memórias construiríamos juntos, mas algo me fazia ter certeza que era com você que eu queria e deveria estar.
             Mas hoje sei que foi um dos dias mais importantes da minha vida.
             E sempre tenho a sensação de que, de alguma forma, eu já te amava mesmo antes de te conhecer.`}
           />
