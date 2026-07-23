@@ -1,4 +1,12 @@
+"use client";
+
 export default function Hero() {
+  const scrollToCounter = () => {
+    document.getElementById("contador")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section
       className="relative h-screen bg-cover bg-center"
@@ -11,6 +19,10 @@ export default function Hero() {
 
       {/* Conteúdo */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-6">
+
+        <p className="uppercase tracking-[0.4em] text-sm mb-4 text-white/80">
+          Capítulo 1
+        </p>
 
         <h1 className="text-5xl font-bold">
           Alexandre ❤️ Diego
@@ -29,13 +41,26 @@ export default function Hero() {
           que fizeram você se tornar minha pessoa favorita.
         </p> */}
 
-        <a
+        {/* <a
           href="#contador"
           className="mt-16 border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition"
         >
           Começar ↓
-        </a>
+        </a> */}
 
+        <button
+            onClick={scrollToCounter}
+            className="
+              border border-white
+              px-6 py-3
+              rounded-full
+              hover:bg-white
+              hover:text-black
+              transition
+            "
+          >
+            Começar ↓
+        </button>
       </div>
     </section>
   );

@@ -40,6 +40,8 @@ export default function Counter() {
         E cada segundo valeu a pena.
       </p>
 
+      
+
     </section>
   );
 }
